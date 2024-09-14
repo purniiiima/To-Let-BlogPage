@@ -10,7 +10,11 @@
     "react-router-dom": "^6.26.2",
     "react-scripts": "4.0.3"
   },
+  "homepage": "https://purniiiima.github.io/To-Let-BlogPage/",
   "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.1.1"
   }
 }

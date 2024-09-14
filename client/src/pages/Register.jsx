@@ -10,6 +10,7 @@ const Register = () => {
     password2: '',
   });
   const [error, setError] = useState(null); // To handle and display error messages
+  // eslint-disable-next-line no-unused-vars
   const [success, setSuccess] = useState(false); // To show success message if needed
   const navigate = useNavigate(); // For programmatic navigation
 

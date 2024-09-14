@@ -3,6 +3,7 @@ import { DUMMY_POSTS } from '../data'
 import {Link} from 'react-router-dom'
 
 const Dashboard = () => {
+   // eslint-disable-next-line no-unused-vars
   const [posts, setPosts] = useState(DUMMY_POSTS)
 
 
