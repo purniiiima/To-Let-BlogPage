@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "axios": "^1.7.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^5.3.0",
@@ -12,11 +13,10 @@
   },
   "homepage": "https://purniiiima.github.io/To-Let-BlogPage/",
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vite build",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
